@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pathy Resume</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Lakshmipathy m">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        html {
+                box-sizing: border-box;
+             }
+        *, *:before, *:after {
+                box-sizing: inherit;
+                margin: 0;
+                padding: 0;
+             }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .main-container {
+            display: block;
+            width: 992px;
+            margin-right: auto;
+            margin-left: auto;
+            
+        }
+        .sub-container {
+            min-width: 992px;
+        }
+        .text-h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .text-h2 {
+            font-size: 16px;
+        }
+        .text-bold {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .profile-info {
+            width: 992px;
+            background-color: #373d48;
+            padding: 25px;
+        }
+        .profile-name {
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+        .profile-skill {
+            color: #ffffff;
+            text-transform: capitalize;
+            margin-top: 5px;
+        }
+        .some-other-profile-info {
+            margin-top: 25px;
+            line-height: 1.5;
+            font-size: 16px;
+            color: #ffffff;
+        }
+        .profile-summary {
+            font-size: 16px;
+            padding: 25px 25px 50px 25px;
+        }
+        .profile-list-items-container {
+            position: relative;
+        }
+        .profile-list-items-container::before {
+            position: absolute;
+            content: "";
+            border-left: 1px solid #373d48;
+            width: 1px;
+            height: 100%;
+            left: 40px;
+        }
+        .profile-list-items-container:last-child::before {
+            border: none;
+        }
+        .profile-list-items {
+            display: flex;
+            margin-left: 25px;
+            padding-bottom: 25px;
+            
+        }
+        .profile-list-items:last-child {
+            padding-bottom: 0;
+        }
+        .profile-list-icons {
+            width: 30px;
+            height: 30px;
+            background-color: #373d48;
+            transform: rotate(45deg);
+            position: relative;
+        }
+        .profile-list-icons-items {
+            position: absolute;
+            top: 6px;
+            right: 6px;
+            transform: rotate(-45deg);
+            color: #ffffff;
+        }
+        .profile-list-icons-items span {
+            font-size: 16px;
+        }
+        .profile-list-content {
+            font-size: 24px;
+            margin-left: 50px;
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+        .profile-list-sub-items {
+            display: flex;
+            margin-left: 32px; 
+            padding-bottom: 25px;
+        }
+        .profile-list-sub-icons {
+            width: 15px;
+            height: 15px;
+            background-color: #373d48;
+            transform: rotate(45deg);
+        }
+        .profile-list-sub-content {
+            font-size: 16px;
+            margin-left: 65px;
+            text-transform: capitalize;
+        }
+        .profile-list-sub-subject-content {
+            font-size: 16px;
+            margin-left: 40px;
+            text-transform: capitalize;
+        }
+        .profile-list-sub-subject {
+            display: inline-block;
+            min-width: 250px;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+        .profile-list-sub-subject-title {
+            font-weight: bold;
+        }
+        .profile-list-sub-subject-sub-title {
+            margin-left: 255px;
+            margin-top: 10px;
+        }
+        .profile-list-sub-subject-list {
+            margin-left: 270px;
+            margin-top: 25px;
+        }
+        .profile-list-sub-subject-list-items {
+            line-height: 2;
+        }
+        .profile-declaration-text {
+            padding-right: 25px;
+            padding-left: 105px;
+        }
+        .profile-date-signature-container {
+            display: flex;
+            line-height: 2;
+            margin-top: 75px;
+        }
+        .profile-date-container {
+            flex-basis: 50%;
+            margin-left: 105px;
+            font-weight: bold;
+            text-transform: uppercase;
+            overflow: hidden;
+        }
+        .profile-signature-container {
+            text-align: center;
+            flex-basis: 50%;
+            overflow: hidden;
+        }
+        .profile-signature-title {
+            text-transform: capitalize;
+        }
+        .profile-signature-name {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        
+
+    </style>
+</head>
+    <body>
+        <div class="main-container">
+            <div class="sub-container">
+                <div class="profile-info">
+                    <div class="profile-name text-h1">
+                        lakshmipathy m
+                    </div>
+                    <div class="profile-skill text-h2">
+                        Front End Developer
+                    </div>
+                    <div class="some-other-profile-info">
+                        <div><span class="text-h2 text-bold">Address</span>Merpanaikkadu, Pudukkottai, TN - 614624</div>
+                        <div><span class="text-h2 text-bold">Phone</span>+91 9500699875</div>
+                        <div><span class="text-h2 text-bold">E-mail</span>o.m.pathy@gmail.com</div>
+                    </div>
+                </div>
+                <div class="profile-summary">
+                    To take a challenging role as a Front End Developer in the industry where I could utilize my skills in web design and other metrics tools and use these skills in providing quality service to the company.
+                </div>
+                <div class="profile-list-container">
+                    <div class="profile-list-items-container">
+                        <div class="profile-list-items">
+                            <span class="profile-list-icons">
+                                <span class="profile-list-icons-items">
+                                    <span class="material-icons">source</span>
+                                </span>
+                            </span>
+                            <span class="profile-list-content">
+                                skills
+                            </span>
+                        </div>
+                        <div class="profile-list-sub-items">
+                            <span class="profile-list-sub-icons">
+                            </span>
+                            <span class="profile-list-sub-content">
+                                Web technologies, HTML, CSS, DOM, JAVASCRIPT
+                            </span>
+                        </div>
+                        <div class="profile-list-sub-items">
+                            <span class="profile-list-sub-icons">
+                            </span>
+                            <span class="profile-list-sub-content">
+                                Ability to develop web page frome initial design through completion, optimizing all cross brower compatibility
+                            </span>
+                        </div>
+                        <div class="profile-list-sub-items">
+                            <span class="profile-list-sub-icons">
+                            </span>
+                            <span class="profile-list-sub-content">
+                                Development of responsive web interfaces on PC and mobile platforms
+                            </span>
+                        </div>
+                        <div class="profile-list-sub-items">
+                            <span class="profile-list-sub-icons">
+                            </span>
+                            <span class="profile-list-sub-content">
+                                Solid understanding of SEO principles
+                            </span>
+                        </div>
+                        <div class="profile-list-sub-items">
+                            <span class="profile-list-sub-icons">
+                            </span>
+                            <span class="profile-list-sub-content">
+                                Knowledge of CSS pre-processors such as SASS
+                            </span>
+                        </div>
+                        <div class="profile-list-sub-items">
+                            <span class="profile-list-sub-icons">
+                            </span>
+                            <span class="profile-list-sub-content">
+                                Logo designing 
+                            </span>
+                        </div>
+                        <div class="profile-list-sub-items">
+                            <span class="profile-list-sub-icons">
+                            </span>
+                            <span class="profile-list-sub-content">
+                                Attention to detail
+                            </span>
+                        </div>
+                        <div class="profile-list-sub-items">
+                            <span class="profile-list-sub-icons">
+                            </span>
+                            <span class="profile-list-sub-content">
+                                Experience with SCM tool:Git
+                            </span>
+                        </div>
+                    </div>
+                    <div class="profile-list-items-container">
+                        <div class="profile-list-items">
+                            <span class="profile-list-icons">
+                                <span class="profile-list-icons-items">
+                                    <span class="material-icons">work</span>
+                                </span>
+                            </span>
+                            <span class="profile-list-content">
+                                working history
+                            </span>
+                        </div>
+                        <div class="profile-list-sub-items">
+                            <span class="profile-list-sub-icons">
+                            </span>
+                            <span class="profile-list-sub-content">
+                                <span class="profile-list-sub-subject">
+                                    Aug 2018 - Jan 2019
+                                </span>
+                                <span class="profile-list-sub-subject-title-container">
+                                    <span class="profile-list-sub-subject-title">
+                                        Cashier 
+                                    </span>
+                                    <div class="profile-list-sub-subject-sub-title">
+                                        Bandhan bank
+                                    </div>
+                                </span>
+                            </span>
+                        </div>
+                        <div class="profile-list-sub-items">
+                            <span class="profile-list-sub-icons">
+                            </span>
+                            <span class="profile-list-sub-content">
+                                <span class="profile-list-sub-subject">
+                                    Jul 2015 - Sep 2017
+                                </span>
+                                <span class="profile-list-sub-subject-title-container">
+                                    <span class="profile-list-sub-subject-title">
+                                        Technical analyst
+                                    </span>
+                                    <div class="profile-list-sub-subject-sub-title">
+                                        Live stock analysis
+                                    </div>
+                                    <ul class="profile-list-sub-subject-list">
+                                        <li class="profile-list-sub-subject-list-items">
+                                            Responsible to conduct research on the stock market
+                                        </li>
+                                        <li class="profile-list-sub-subject-list-items">
+                                            Analyze and make predictions on the basis of research 
+                                        </li>
+                                    </ul>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="profile-list-items-container">
+                        <div class="profile-list-items">
+                            <span class="profile-list-icons">
+                                <span class="profile-list-icons-items">
+                                    <span class="material-icons">school</span>
+                                </span>
+                            </span>
+                            <span class="profile-list-content">
+                                education
+                            </span>
+                        </div>
+                        <div class="profile-list-sub-items">
+                            <span class="profile-list-sub-icons">
+                            </span>
+                            <span class="profile-list-sub-content">
+                                <span class="profile-list-sub-subject">
+                                    2010 - 2013
+                                </span>
+                                <span class="profile-list-sub-subject-title-container">
+                                    <span class="profile-list-sub-subject-title">
+                                        BBA : Business Administration
+                                    </span>
+                                    <div class="profile-list-sub-subject-sub-title">
+                                        Naina Mohamed College, Rajendrapuram, Bharathidasan University.
+                                    </div>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="profile-list-items-container">
+                        <div class="profile-list-items">
+                            <span class="profile-list-icons">
+                                <span class="profile-list-icons-items">
+                                    <span class="material-icons">thumb_up_alt</span>
+                                </span>
+                            </span>
+                            <span class="profile-list-content">
+                                declaration
+                            </span>
+                        </div>
+                        <div class="profile-declaration-text">
+                            I, <b>Lakshmipathy M</b> hereby declare that the above all information is true to the best of my knowledge and belief.
+                        </div>
+                    </div>
+                    <div class="profile-date-signature-container">
+                        <div class="profile-date-container">
+                            <div class="profile-place">
+                                place :
+                            </div>
+                            <div class="profile-date">
+                                date :
+                            </div>
+                        </div>
+                        <div class="profile-signature-container">
+                            <div class="profile-signature-title">
+                                singnature
+                            </div>
+                            <div class="profile-signature-name">
+                                lakshmipathy m
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
